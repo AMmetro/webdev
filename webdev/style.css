@@ -1,0 +1,222 @@
+html{
+    box-sizing: border-box;
+}
+*,*::before,* ::after{
+    box-sizing: inherit;
+}
+
+body {
+font-family: 'lato';
+font-style: normal;
+font-weight: normal ;
+font-size: 16px;
+}
+
+.bg_wrapper1 {
+    min-height: 100vh;
+    width: 100%;
+    background: url('./assets/images/bg-image-wrapper.png')
+    no-repeat center;
+    background-size: cover;
+}
+
+.content_wrapper {
+    max-width: 1060px;
+    margin: 0 auto;
+}
+
+
+.header {
+    /* height: 95px; */
+    width: 100%;  /* ???? */
+    /* width: 1600px; */
+    background-color: blue;
+    margin: 0 auto;
+}
+
+.wrapper {  /*зачем этот wrapper*/
+    background-color: greenyellow;
+    max-width: 1060px;
+    margin: 0 auto;
+} 
+
+.header_wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end; /*вертикальное выравнивание*/
+    justify-content: space-between; /*выравнивание по краям контейнера*/
+    padding-top: 28px;
+}
+
+.header_nav_wraper{
+    background-color: burlywood;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.header_list{
+      display: flex;
+     flex-wrap: wrap; /*menu able jump to next line after scroling and screen do not go side  */
+}
+
+.header_item {
+    padding-top: 15px;
+    margin-right: 120px;
+    margin-left: 30px;
+}
+
+/* .header_item:last-child {
+    margin: 0;
+} */
+
+
+.header_link {
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0px;
+  text-align: center;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+.header_link:hover, .header_link:focus, .header_link:active {
+    cursor: pointer;
+    text-decoration: underline;
+    color: yellow;
+ }
+
+
+.header_nav ul {
+     /* flex-wrap: nowrap; */
+    /* display: flex; */
+    /* min-width: 200px; */
+    /* width: 400px; */
+    /* justify-content: space-between; */
+}
+  
+
+/* a is "inline" element => write "display block" for style work*/
+/* .header_nav ul li a { 
+    display: block;
+    font-weight: 400;
+    font-size: 14px;
+    text-decoration: none;
+    line-height: 47px;
+    text-align: center;
+    background-color: chartreuse;
+    vertical-align: bottom ; 
+    align-items: center;
+    justify-content: center;
+    opacity: 80%;
+    color: white;
+    fill: Solid; } */
+   
+
+    /*margin-top: -50px;
+    z-index: 10; */
+
+/* -----------------------INTRO--------------------------------------------- */
+.intro_title {
+    font-family: Roboto;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 75px;
+    letter-spacing: 4.5px;
+    text-align: center;
+    color: white;
+    padding-top: 170px;   
+}
+
+.manifest {
+
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25.2px;
+    letter-spacing: 0px;
+    text-align: center;  
+    width: 450px;
+    color: white;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+
+.main_button {
+    width: 46px;
+    position: relative;
+    margin: 0 auto;
+    padding-top: 33px;
+ }
+
+
+.get_started_btn {
+    color: white;
+    background-color: #00AFDB;
+    height: 46px;
+    width: 184px;
+    border-radius: 0px;
+    border: none;  
+}
+
+.intro_social_icons {
+position: relative;
+top: 150px;
+width: 170px;
+height: 20px;
+margin: 0 auto;
+display: flex;
+justify-content: space-between;
+}
+
+/* -----------------------main_wrapper2------------------------- */
+.bg_wrapper2 {
+    height: 100vh;
+    width: 100%;
+    background: url('./assets/images/bg-2.png')
+    no-repeat center;
+    background-size: cover;
+}
+
+.second_bg_left_div {
+    background-color: cadetblue;
+    position: relative;
+    left: 1px;
+    top: 100px;
+    width: 407px;
+    height: 233px;
+    border: 10px solid color red;
+}
+
+.txt_heading {
+    font-family: Roboto;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: 1px;
+    text-align: left;  
+}
+
+.txt_article {
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0px;
+    text-align: left;
+    padding-top: 12px;
+}
+
+.main_button_wrapper2 {
+    width: 46px;
+    position: relative;
+    /* margin: 0 auto; */
+    padding-top: 35px;
+ }
